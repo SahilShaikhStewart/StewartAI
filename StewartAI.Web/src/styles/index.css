@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        /* Stewart AI Design System – Light Theme */
+        --background: 0 0% 100%;
+        --foreground: 215 28% 17%;
+
+        --card: 0 0% 100%;
+        --card-foreground: 215 28% 17%;
+
+        --popover: 0 0% 100%;
+        --popover-foreground: 215 28% 17%;
+
+        /* Stewart Blue as primary */
+        --primary: 210 100% 20%;
+        --primary-foreground: 0 0% 100%;
+
+        --secondary: 210 40% 96.1%;
+        --secondary-foreground: 215 28% 17%;
+
+        --muted: 210 40% 96.1%;
+        --muted-foreground: 215.4 16.3% 46.9%;
+
+        --accent: 43 55% 55%;
+        --accent-foreground: 215 28% 17%;
+
+        --destructive: 0 73% 41%;
+        --destructive-foreground: 0 0% 100%;
+
+        --border: 214.3 31.8% 91.4%;
+        --input: 214.3 31.8% 91.4%;
+        --ring: 210 100% 20%;
+
+        --radius: 0.5rem;
+
+        /* Charts */
+        --chart-1: 210 100% 20%;
+        --chart-2: 43 55% 55%;
+        --chart-3: 142 71% 45%;
+        --chart-4: 0 73% 41%;
+        --chart-5: 262 52% 47%;
+    }
+
+    .dark {
+        --background: 215 28% 10%;
+        --foreground: 210 40% 98%;
+
+        --card: 215 28% 13%;
+        --card-foreground: 210 40% 98%;
+
+        --popover: 215 28% 13%;
+        --popover-foreground: 210 40% 98%;
+
+        --primary: 210 100% 40%;
+        --primary-foreground: 0 0% 100%;
+
+        --secondary: 217.2 32.6% 17.5%;
+        --secondary-foreground: 210 40% 98%;
+
+        --muted: 217.2 32.6% 17.5%;
+        --muted-foreground: 215 20.2% 65.1%;
+
+        --accent: 43 55% 55%;
+        --accent-foreground: 210 40% 98%;
+
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 210 40% 98%;
+
+        --border: 217.2 32.6% 17.5%;
+        --input: 217.2 32.6% 17.5%;
+        --ring: 210 100% 40%;
+
+        --chart-1: 210 100% 50%;
+        --chart-2: 43 65% 60%;
+        --chart-3: 142 71% 55%;
+        --chart-4: 0 73% 51%;
+        --chart-5: 262 52% 57%;
+    }
+}
+
+@layer base {
+    * {
+        border-color: hsl(var(--border));
+    }
+    body {
+        background-color: hsl(var(--background));
+        color: hsl(var(--foreground));
+        font-family: 'Inter', system-ui, sans-serif;
+    }
+}
+
+@layer components {
+    /* Risk level badges */
+    .risk-high {
+        @apply bg-red-100 text-red-800 dark:bg-red-900/20 dark:text-red-400;
+    }
+    .risk-medium {
+        @apply bg-yellow-100 text-yellow-800 dark:bg-yellow-900/20 dark:text-yellow-400;
+    }
+    .risk-low {
+        @apply bg-green-100 text-green-800 dark:bg-green-900/20 dark:text-green-400;
+    }
+
+    /* Chat bubbles */
+    .chat-user {
+        @apply bg-primary text-primary-foreground rounded-2xl rounded-br-sm px-4 py-3;
+    }
+    .chat-assistant {
+        @apply bg-muted text-foreground rounded-2xl rounded-bl-sm px-4 py-3;
+    }
+
+    /* Custom scrollbar */
+    .custom-scrollbar::-webkit-scrollbar {
+        @apply w-2;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+        @apply bg-gray-100 dark:bg-gray-800;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+        @apply bg-gray-300 dark:bg-gray-600 rounded-full;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+        @apply bg-gray-400 dark:bg-gray-500;
+    }
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+}

@@ -1,0 +1,46 @@
+## ─── .NET ────────────────────────────────────────────────────────────────────
+bin/
+obj/
+*.user
+*.suo
+*.db
+*.db-shm
+*.db-wal
+*.DotSettings.user
+publish/
+out/
+
+## ─── Node.js / Frontend ─────────────────────────────────────────────────────
+node_modules/
+dist/
+.tsbuildinfo
+*.tsbuildinfo
+
+## ─── IDE ─────────────────────────────────────────────────────────────────────
+.vs/
+.vscode/
+*.swp
+*.sln.docstates
+.idea/
+
+## ─── OS ──────────────────────────────────────────────────────────────────────
+Thumbs.db
+.DS_Store
+Desktop.ini
+ehthumbs.db
+
+## ─── Secrets / Environment ──────────────────────────────────────────────────
+appsettings.Development.json
+.env
+.env.local
+.env.*.local
+
+## ─── Logs ────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## ─── Build Artifacts ────────────────────────────────────────────────────────
+*.nupkg
+*.snupkg
