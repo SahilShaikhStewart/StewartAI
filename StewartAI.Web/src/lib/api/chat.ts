@@ -4,6 +4,7 @@ import type {
     ConversationHistoryResponse,
     IngestResponse,
     KnowledgeBaseStats,
+    KnowledgeSeedResult,
 } from '@/types/api';
 
 import { apiClient } from './client';
@@ -48,6 +49,16 @@ export const chatApi = {
     /** Get knowledge base stats */
     getKnowledgeBaseStats: async (): Promise<KnowledgeBaseStats> => {
         const { data } = await apiClient.get<KnowledgeBaseStats>('/chat/knowledge-base/stats');
+        return data;
+    },
+
+    /** Seed knowledge base from built-in training data */
+    seedKnowledgeBase: async (): Promise<KnowledgeSeedResult> => {
+        const { data } = await apiClient.post<KnowledgeSeedResult>(
+            '/chat/knowledge-base/seed',
+            null,
+            { timeout: 300000 } // 5 min timeout for seeding
+        );
         return data;
     },
 };

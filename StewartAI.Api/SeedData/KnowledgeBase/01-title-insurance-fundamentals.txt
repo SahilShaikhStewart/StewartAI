@@ -1,0 +1,95 @@
+STEWART TITLE — TITLE INSURANCE FUNDAMENTALS
+=============================================
+
+WHAT IS TITLE INSURANCE?
+Title insurance is a form of indemnity insurance that protects real estate owners and mortgage lenders against financial loss from defects in a title to a property. Unlike other forms of insurance that protect against future events, title insurance protects against losses from events that have already occurred but may not yet be discovered.
+
+Stewart Title Guaranty Company, founded in 1893 in Galveston, Texas, is one of the largest title insurance companies in the United States. Stewart provides title insurance and related services for residential and commercial real estate transactions.
+
+TYPES OF TITLE INSURANCE POLICIES
+
+1. Owner's Title Insurance Policy
+- Protects the property buyer/owner
+- Coverage amount equals the purchase price
+- Remains in effect as long as the owner (or their heirs) has an interest in the property
+- One-time premium paid at closing
+- Protects against: forgery, fraud, undisclosed heirs, errors in public records, missing liens, boundary disputes
+
+2. Lender's Title Insurance Policy (Loan Policy)
+- Protects the mortgage lender's interest
+- Coverage amount equals the loan amount
+- Decreases as the loan is paid down and expires when the loan is paid off
+- Required by virtually all mortgage lenders
+- Does NOT protect the homeowner — only the lender
+
+3. Enhanced Owner's Policy (ALTA Homeowner's Policy)
+- Provides broader coverage than a standard owner's policy
+- Includes post-policy coverage for certain risks
+- Covers issues like building permit violations, subdivision law violations, and encroachments
+- Automatically increases in value up to 150% of the original amount over 5 years
+
+HOW TITLE INSURANCE WORKS
+
+Step 1: Title Search
+A title examiner searches public records to trace the chain of ownership (chain of title) for the property. This includes reviewing:
+- Deeds and conveyances
+- Mortgages and liens
+- Court records (judgments, divorces, probate)
+- Tax records
+- Plat maps and surveys
+- Easements and restrictions
+
+Step 2: Title Examination
+The examiner reviews the search results to identify any issues that could affect ownership, including:
+- Breaks in the chain of title
+- Outstanding liens or encumbrances
+- Boundary disputes or survey issues
+- Unreleased mortgages
+- Judgment liens or tax liens
+- Easements that may affect property use
+
+Step 3: Title Commitment
+A title commitment (also called a preliminary title report) is issued, which includes:
+- Schedule A: Property description, proposed insured, and amount of insurance
+- Schedule B-I: Requirements that must be met before the policy will be issued
+- Schedule B-II: Exceptions from coverage (items that will not be covered by the policy)
+
+Step 4: Clearing Title Issues
+Any defects or issues found must be resolved before closing. Common curative actions include:
+- Obtaining lien releases
+- Recording missing documents
+- Correcting legal descriptions
+- Obtaining affidavits
+- Quiet title actions (court proceedings)
+
+Step 5: Policy Issuance
+After closing and recording, the final title insurance policy is issued.
+
+TITLE INSURANCE PREMIUMS
+- Title insurance is a one-time premium paid at closing
+- Premiums are regulated by state insurance departments
+- In most states, the seller pays for the owner's policy and the buyer pays for the lender's policy
+- Simultaneous issue rates provide a discount when both policies are issued at the same time
+- Reissue rates may apply if the property was recently insured
+
+COMMON TITLE INSURANCE CLAIMS
+According to industry data, the most common title insurance claims involve:
+1. Liens (tax liens, mechanic's liens, judgment liens) — 35% of claims
+2. Forgery and fraud — 15% of claims
+3. Boundary and survey disputes — 12% of claims
+4. Errors in public records — 10% of claims
+5. Unknown heirs or missing parties — 8% of claims
+6. Unreleased mortgages — 7% of claims
+7. Easement issues — 5% of claims
+8. Other defects — 8% of claims
+
+STEWART TITLE'S ROLE
+Stewart Title provides:
+- Title searches and examinations
+- Title insurance underwriting
+- Escrow and closing services
+- Real estate technology solutions
+- Commercial title services
+- International title services
+
+Stewart operates through a network of direct operations and independent title agents across the United States and internationally.

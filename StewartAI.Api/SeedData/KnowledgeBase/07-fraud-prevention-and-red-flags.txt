@@ -1,0 +1,144 @@
+STEWART TITLE — FRAUD PREVENTION AND RED FLAGS GUIDE
+======================================================
+
+OVERVIEW OF TITLE FRAUD
+Real estate fraud costs the industry billions of dollars annually. Stewart Title is committed to preventing fraud through education, technology, and vigilant underwriting practices. Title agents and examiners are the first line of defense.
+
+TYPES OF REAL ESTATE FRAUD
+
+1. WIRE FRAUD / BUSINESS EMAIL COMPROMISE (BEC)
+- The #1 threat to real estate transactions today
+- Criminals hack email accounts of real estate agents, attorneys, or title companies
+- They send fraudulent wire instructions to buyers, redirecting closing funds
+- Average loss per incident: $150,000 - $500,000
+- FBI reports over $2 billion in losses annually from real estate wire fraud
+
+Prevention:
+- NEVER change wire instructions based on email alone
+- Always verify wire instructions by calling a known phone number
+- Use Stewart's secure wire verification platform
+- Educate buyers about wire fraud before closing
+- Implement multi-factor authentication on all email accounts
+- Use encrypted email for financial communications
+
+2. SELLER IMPERSONATION FRAUD
+- Criminal poses as the property owner to sell property they don't own
+- Most common with vacant land and investment properties
+- Criminal uses fake IDs and forged documents
+- Often targets out-of-state or out-of-country property owners
+
+Red Flags:
+- Seller is not local and has never visited the property
+- Seller wants to close quickly with minimal due diligence
+- Seller provides a PO Box or hotel address
+- Property is vacant land with no mortgage
+- Seller's ID appears altered or inconsistent
+- Seller cannot answer basic questions about the property
+- Power of attorney is being used for the sale
+- Seller wants proceeds wired to a foreign account
+
+Prevention:
+- Verify seller identity through multiple sources
+- Require in-person or video notarization
+- Contact the seller of record using information from public records (not provided by the seller)
+- Check tax mailing address against seller's claimed address
+- Be extra cautious with vacant land transactions
+
+3. PROPERTY FLIPPING FRAUD
+- Property is purchased at a low price and quickly resold at an inflated price
+- Often involves inflated appraisals and straw buyers
+- May involve collusion between buyer, seller, appraiser, and loan officer
+
+Red Flags:
+- Multiple sales of the same property in a short period (less than 6 months)
+- Significant price increases between transactions (more than 20% in less than a year)
+- Buyer and seller appear to be related or connected
+- Cash purchases followed by immediate refinancing at higher values
+- Appraisal significantly above comparable sales
+
+4. FORGERY
+- Forged signatures on deeds, mortgages, or other recorded documents
+- A forged deed is VOID — it conveys no title
+- Can result in significant title insurance claims
+
+Red Flags:
+- Signatures that don't match known samples
+- Documents notarized in a different state than where the signer resides
+- Multiple documents with identical signatures (possible stamp or copy)
+- Notary acknowledgment appears altered or inconsistent
+- Grantor is deceased at the time of the purported signing
+
+5. IDENTITY THEFT
+- Criminal uses stolen identity to obtain mortgages or sell property
+- May involve synthetic identities (combination of real and fake information)
+
+Red Flags:
+- Social Security number doesn't match the name
+- Address history is inconsistent
+- Multiple recent name changes
+- ID documents appear altered
+- Signer cannot verify personal information
+
+6. STRAW BUYER SCHEMES
+- A person with good credit purchases property on behalf of someone who cannot qualify
+- The true buyer makes the payments and occupies the property
+- Violates mortgage fraud statutes
+
+Red Flags:
+- Buyer has no apparent connection to the property location
+- Buyer is purchasing multiple properties simultaneously
+- Buyer's income doesn't support the purchase
+- Buyer is being "coached" by another party at closing
+
+7. EQUITY STRIPPING / FORECLOSURE RESCUE FRAUD
+- Targets homeowners in financial distress
+- Criminal convinces homeowner to transfer title as part of a "rescue" plan
+- Homeowner loses their equity and their home
+
+Red Flags:
+- Deed transfer for nominal consideration ($1 or $10)
+- Grantor is in foreclosure or financial distress
+- Grantee is not a family member
+- Transaction involves a "lease-back" arrangement
+- Grantor claims they were told they could buy the property back
+
+STEWART'S FRAUD PREVENTION PROTOCOLS
+
+1. Identity Verification
+- Require government-issued photo ID for all signers
+- Verify ID against known databases
+- Use knowledge-based authentication (KBA) for remote transactions
+- Implement biometric verification where available
+
+2. Transaction Monitoring
+- Flag transactions with multiple red flags
+- Review all transactions involving vacant land
+- Enhanced due diligence for transactions over $1 million
+- Monitor for unusual patterns (same parties, rapid transfers)
+
+3. Wire Security
+- Dual authorization for all outgoing wires
+- Callback verification for all wire instructions
+- Secure portal for sharing wire information
+- Daily reconciliation of escrow accounts
+
+4. Reporting
+- Report suspected fraud to Stewart's Special Investigations Unit (SIU)
+- File Suspicious Activity Reports (SARs) as required
+- Cooperate with law enforcement investigations
+- Maintain records of all fraud prevention activities
+
+5. Training
+- Annual fraud prevention training for all employees
+- Regular updates on emerging fraud schemes
+- Participation in industry fraud prevention initiatives
+- Collaboration with FBI, Secret Service, and state regulators
+
+WHAT TO DO IF YOU SUSPECT FRAUD
+1. STOP the transaction immediately
+2. Do NOT disburse any funds
+3. Contact your Stewart underwriter
+4. Report to Stewart's Special Investigations Unit
+5. Document all suspicious activity
+6. Preserve all evidence (emails, documents, IDs)
+7. Cooperate with law enforcement if contacted

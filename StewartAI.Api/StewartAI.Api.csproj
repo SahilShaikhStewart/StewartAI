@@ -15,4 +15,10 @@
     <ProjectReference Include="..\StewartAI.Infrastructure\StewartAI.Infrastructure.csproj" />
   </ItemGroup>
 
+  <!-- Copy seed data files to output directory -->
+  <ItemGroup>
+    <None Include="SeedData\KnowledgeBase\**\*" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="SeedData\DemoDocuments\**\*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
 </Project>

@@ -64,6 +64,15 @@ export interface IngestResponse {
     totalChunks: number;
 }
 
+export interface KnowledgeSeedResult {
+    filesProcessed: number;
+    filesSkipped: number;
+    totalChunks: number;
+    processedFiles: string[];
+    skippedFiles: string[];
+    errors: string[];
+}
+
 // ─── Risk Dashboard ──────────────────────────────────────────────────────────
 
 export interface RiskAssessmentRequest {

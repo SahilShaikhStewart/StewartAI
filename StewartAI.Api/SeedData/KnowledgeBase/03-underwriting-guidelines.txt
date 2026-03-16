@@ -1,0 +1,106 @@
+STEWART TITLE — UNDERWRITING GUIDELINES AND RISK ASSESSMENT
+=============================================================
+
+UNDERWRITING PRINCIPLES
+Title insurance underwriting is the process of evaluating the risk associated with insuring a particular title. Stewart Title underwriters follow these core principles:
+
+1. Marketability Standard: A title must be marketable — meaning a reasonable, prudent buyer would accept it without objection.
+2. Insurability Standard: Even if a title has minor defects, it may still be insurable with appropriate exceptions or endorsements.
+3. Risk-Based Pricing: Premium rates are set by state regulators, but the decision to insure is based on risk assessment.
+
+RISK ASSESSMENT FRAMEWORK
+
+Stewart uses a multi-factor risk assessment model:
+
+Factor 1: Geographic Risk
+- High-risk states: Florida (fraud prevalence), California (complex regulations), New York (judicial foreclosure delays), Louisiana (Napoleonic code)
+- Medium-risk states: Texas, Illinois, New Jersey, Nevada
+- Lower-risk states: Minnesota (Torrens system available), Ohio, Pennsylvania, Virginia
+- Factors: State foreclosure laws, recording systems, fraud rates, litigation environment
+
+Factor 2: Transaction Type Risk
+- Purchase (standard): LOW to MEDIUM risk
+- Refinance: LOW risk (existing owner, known history)
+- Cash Sale: MEDIUM risk (no lender oversight)
+- Short Sale: HIGH risk (distressed seller, potential fraud)
+- Foreclosure: HIGH risk (procedural defects, redemption rights)
+- New Construction: MEDIUM risk (mechanic's lien exposure)
+- REO (bank-owned): MEDIUM to HIGH risk (chain of title issues from foreclosure)
+
+Factor 3: Property Type Risk
+- Single Family Residential: LOW to MEDIUM
+- Condominium: MEDIUM (HOA issues, common area complications)
+- Multi-Family: MEDIUM to HIGH (more complex ownership, tenant rights)
+- Commercial: HIGH (complex transactions, environmental issues)
+- Vacant Land: HIGH (boundary disputes, access issues, zoning)
+- Mixed Use: HIGH (multiple regulatory frameworks)
+
+Factor 4: Transaction Value Risk
+- Under $250,000: Standard underwriting
+- $250,000 - $1,000,000: Enhanced review
+- $1,000,000 - $5,000,000: Senior underwriter review required
+- Over $5,000,000: Regional underwriting counsel approval required
+- Over $20,000,000: National underwriting counsel approval required
+
+Factor 5: Chain of Title Risk
+- Clean chain (20+ years): LOW risk
+- Recent transfers (within 3 years): MEDIUM risk — check for flipping fraud
+- Multiple transfers in short period: HIGH risk — potential fraud indicator
+- Estate/probate transfers: MEDIUM to HIGH risk
+- Entity transfers (LLC, trust): MEDIUM risk — verify authority
+
+UNDERWRITING DECISION MATRIX
+
+APPROVE (Risk Score 0-39):
+- Clean title search with no material defects
+- All liens released or to be paid at closing
+- Standard transaction type and property type
+- No red flags in chain of title
+
+APPROVE WITH CONDITIONS (Risk Score 40-69):
+- Minor defects that can be cured before closing
+- Standard exceptions required on Schedule B
+- Additional documentation needed (affidavits, resolutions)
+- Endorsements required for specific risks
+
+REFER TO UNDERWRITER (Risk Score 70-89):
+- Material defects requiring underwriter evaluation
+- Complex transactions (commercial, multi-party)
+- High-value transactions exceeding agent authority
+- Unusual chain of title issues
+
+DECLINE (Risk Score 90-100):
+- Forged or void instruments in chain of title
+- Active litigation affecting the property
+- Unresolvable title defects
+- Known fraud indicators
+- Federal/state regulatory prohibitions
+
+FRAUD RED FLAGS
+Stewart underwriters are trained to identify these fraud indicators:
+1. Property flipping: Multiple sales in short period with escalating prices
+2. Straw buyers: Purchaser has no apparent connection to the property
+3. Inflated appraisals: Purchase price significantly above market value
+4. Identity theft: Seller's identity cannot be verified
+5. Wire fraud: Last-minute changes to wiring instructions
+6. Seller impersonation: Vacant land sales where seller is not the true owner
+7. Forged documents: Signatures that don't match known samples
+8. Power of attorney abuse: POA used for suspicious transactions
+
+ENDORSEMENT GUIDELINES
+Common ALTA endorsements and when to issue:
+
+ALTA 8.1 (Environmental Protection Lien): Insures against environmental liens
+ALTA 9 (Restrictions, Encroachments, Minerals): Comprehensive coverage for CC&Rs
+ALTA 17 (Access and Entry): Insures legal access to the property
+ALTA 19 (Contiguity): Insures that multiple parcels are contiguous
+ALTA 22 (Location): Insures the property is located at a specific address
+ALTA 25 (Same as Survey): Insures the legal description matches the survey
+ALTA 28 (Encroachment): Insures against loss from existing encroachments
+ALTA 35 (Minerals): Insures against loss from mineral rights claims
+
+REINSURANCE REQUIREMENTS
+- Single risk retention limit varies by state and policy type
+- Excess risk must be reinsured through Stewart's reinsurance program
+- Commercial transactions over $10 million typically require reinsurance
+- Facultative reinsurance for unusual or high-risk transactions

@@ -1,0 +1,181 @@
+COMPLIANCE AND REGULATORY FRAMEWORK
+Stewart Title — Legal and Regulatory Reference
+================================================
+
+FEDERAL REGULATORY COMPLIANCE
+
+E-SIGN Act (Electronic Signatures in Global and National Commerce Act)
+- Federal law enacted in 2000 establishing legal validity of electronic signatures
+- Electronic signatures have same legal standing as handwritten signatures
+- Applies to interstate and foreign commerce transactions
+- Consumer consent required before using electronic records
+- Records must be accessible and retainable by consumers
+
+UETA (Uniform Electronic Transactions Act)
+- Model state law adopted by 49 states (all except New York, which has similar legislation)
+- Provides legal framework for electronic transactions at state level
+- Electronic records and signatures satisfy legal requirements for written documents
+- Establishes rules for attribution, effect, and retention of electronic records
+
+TRID (TILA-RESPA Integrated Disclosure)
+- Combined Truth in Lending Act (TILA) and Real Estate Settlement Procedures Act (RESPA)
+- Requires Loan Estimate within 3 business days of loan application
+- Requires Closing Disclosure at least 3 business days before closing
+- Material changes to CD trigger new 3-day waiting period
+- Applies to most closed-end consumer mortgage loans
+- Penalties for non-compliance include fines and potential loan rescission
+
+RESPA (Real Estate Settlement Procedures Act)
+- Prohibits kickbacks and referral fees in real estate settlement services
+- Requires disclosure of settlement costs to borrowers
+- Limits escrow account deposits
+- Requires servicer to respond to borrower inquiries
+- Stewart compliance: All settlement services disclosed, no undisclosed referral arrangements
+
+Truth in Lending Act (TILA)
+- Requires disclosure of APR, finance charges, and total payments
+- Provides right of rescission for certain transactions (refinances, HELOCs)
+- 3-day cooling-off period for applicable transactions
+- Advertising requirements for credit terms
+
+Fair Housing Act
+- Prohibits discrimination in housing-related transactions
+- Protected classes: Race, color, national origin, religion, sex, familial status, disability
+- Applies to lending, insurance, and real estate services
+- Stewart policy: Zero tolerance for discriminatory practices
+
+STATE-SPECIFIC REGULATORY REQUIREMENTS
+
+Notarization Laws:
+- Each state has specific notary public laws and regulations
+- RON authorized in 40+ states with varying requirements
+- Some states require specific notarial certificate language
+- Witness requirements vary by state (some require additional witnesses)
+- Recording office requirements differ by jurisdiction
+
+Attorney State Requirements:
+States requiring attorney involvement in real estate closings:
+- Connecticut, Delaware, Georgia, Massachusetts, New York, North Carolina, South Carolina, Vermont, West Virginia
+- Some states require attorney review but not presence
+- Stewart guideline: Always verify attorney requirements for the specific state and transaction type
+
+Community Property States:
+- Arizona, California, Idaho, Louisiana, Nevada, New Mexico, Texas, Washington, Wisconsin
+- Both spouses may need to sign even if only one is on the loan
+- Special considerations for property acquired during marriage
+- Stewart guideline: Verify spousal consent requirements in community property states
+
+MORTGAGE INDUSTRY STANDARDS
+
+MISMO (Mortgage Industry Standards Maintenance Organization)
+- Establishes technology standards for the mortgage industry
+- RON technology standards for electronic notarization
+- eNote standards for electronic promissory notes
+- Data exchange standards between lenders, title companies, and servicers
+- Stewart compliance: MISMO certified RON adherence
+
+GSE Requirements (Fannie Mae / Freddie Mac):
+- Specific requirements for loans sold to government-sponsored enterprises
+- eNote acceptance criteria and registration requirements
+- MERS (Mortgage Electronic Registration Systems) requirements
+- Quality control standards for loan documentation
+- Stewart guideline: Verify GSE requirements for each transaction
+
+FHA/VA/USDA Loan Requirements:
+- Government-backed loans have additional documentation requirements
+- FHA: Federal Housing Administration specific forms and disclosures
+- VA: Veterans Affairs loan guaranty requirements
+- USDA: Rural development loan specific requirements
+- Each program has unique closing document requirements
+
+TITLE INSURANCE REGULATORY FRAMEWORK
+
+State Insurance Department Oversight:
+- Title insurance rates regulated by state insurance departments
+- Filing requirements for rate changes and policy forms
+- Consumer protection regulations specific to title insurance
+- Complaint handling procedures mandated by regulators
+
+ALTA (American Land Title Association) Standards:
+- Industry-wide standards for title insurance policies
+- Best Practices Framework (7 pillars):
+  1. Licensing: Maintain appropriate licenses
+  2. Escrow Trust Accounting: Proper handling of client funds
+  3. Privacy and Information Security: Protect consumer data
+  4. Settlement Procedures: Follow proper closing procedures
+  5. Title Policy Production: Accurate and timely policy issuance
+  6. Professional Liability Insurance: Maintain adequate coverage
+  7. Consumer Complaints: Proper complaint handling procedures
+
+ANTI-MONEY LAUNDERING (AML) AND FRAUD PREVENTION
+
+Bank Secrecy Act (BSA) Compliance:
+- Know Your Customer (KYC) requirements
+- Suspicious Activity Reports (SARs) for unusual transactions
+- Currency Transaction Reports (CTRs) for cash transactions over $10,000
+- Record keeping requirements for financial transactions
+
+FinCEN Geographic Targeting Orders (GTOs):
+- Special reporting requirements for all-cash real estate purchases
+- Applies to specific geographic areas and transaction thresholds
+- Title companies must identify beneficial owners of shell companies
+- Stewart compliance: Automated screening and reporting procedures
+
+Wire Fraud Prevention:
+- Verification procedures for wire transfer instructions
+- Multi-factor authentication for wire requests
+- Callback verification to known phone numbers
+- Employee training on social engineering and phishing
+- Stewart protocol: Never change wire instructions via email alone
+
+PRIVACY AND DATA PROTECTION
+
+Gramm-Leach-Bliley Act (GLBA):
+- Requires financial institutions to protect consumer financial information
+- Privacy notices to consumers about information sharing practices
+- Safeguards Rule: Implement security program for customer information
+- Stewart compliance: Comprehensive information security program
+
+California Consumer Privacy Act (CCPA):
+- Consumer rights: Know what data is collected, delete data, opt out of sale
+- Applies to businesses meeting certain thresholds
+- Penalties for non-compliance
+- Stewart compliance: Privacy policy, consumer request procedures
+
+GDPR (General Data Protection Regulation):
+- Applies to processing of EU residents' personal data
+- Data subject rights: Access, rectification, erasure, portability
+- Data protection impact assessments for high-risk processing
+- Stewart compliance: Where applicable for international transactions
+
+AUDIT AND RECORD KEEPING REQUIREMENTS
+
+Session Recording Retention:
+- RON session recordings: Minimum 10 years (varies by state)
+- Notary journals: Per state requirements (typically 3-10 years)
+- Document copies: As legally required for audit trail
+- Personal information: Only as long as legally required
+- Payment information: Per PCI compliance requirements
+
+Audit Trail Requirements:
+- Complete documentation of all notarization sessions
+- Identity verification records (ID examination, KBA results)
+- Document integrity verification (hash values, tamper evidence)
+- System access and activity logs
+- Chain of custody documentation for legal proceedings
+
+INSURANCE AND LIABILITY
+
+Notary Bonds: All notaries bonded as required by state law
+Errors and Omissions (E&O): Professional liability insurance for notaries
+Technology Insurance: Platform and system integrity coverage
+Cyber Liability: Data breach and privacy violation coverage
+General Liability: Comprehensive business liability protection
+
+Dispute Resolution Process:
+1. Documentation review: Examine session recordings and records
+2. Notary consultation: Interview the performing notary
+3. Investigation: Thorough review of all evidence
+4. Resolution: Work toward satisfactory resolution
+5. Insurance: E&O coverage if applicable
+6. Legal cooperation: Assist with any legal proceedings

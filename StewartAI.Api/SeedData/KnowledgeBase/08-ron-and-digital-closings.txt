@@ -1,0 +1,110 @@
+REMOTE ONLINE NOTARIZATION (RON) AND DIGITAL CLOSINGS
+Stewart Title — Signer's Choice Platform
+=========================================
+
+WHAT IS REMOTE ONLINE NOTARIZATION (RON)?
+Remote Online Notarization (RON) is a technology-enabled process that allows notarizations to be completed entirely online via secure audio-video communication. The signer and notary connect through a digital platform, where identity verification, document review, and electronic signing all occur in real time.
+
+Stewart's Signer's Choice platform is a next-generation notarization platform that brings together everything title companies, lenders, notaries, and signers need to complete real estate closings with confidence. Built for today's digital-first world, the platform supports both Remote Online Notarization (RON) and Mobile Notary services, giving clients the flexibility to close anytime, anywhere.
+
+RON LEGAL FRAMEWORK
+- RON is legally recognized in 40+ states as of 2024, with more states adopting annually
+- Federal recognition under E-SIGN Act and UETA (Uniform Electronic Transactions Act)
+- Interstate validity: RON documents are valid across state lines
+- Court acceptance: Widely accepted in legal proceedings
+- MISMO certified RON adherence for mortgage industry standards
+- Notary jurisdiction is determined by where the notary is commissioned
+- Signer can be located anywhere RON is not prohibited
+
+WHEN TO USE RON VS MOBILE NOTARIZATION
+Use RON when:
+- Signers have a reliable internet connection (10+ Mbps recommended)
+- Signers have a computer or tablet with camera and microphone
+- Signers are in a quiet, private location
+- Quick turnaround is needed (same-day availability possible)
+- Signers are in two separate locations
+- Real estate closings: Available 7 AM – 11 PM Eastern, 7 days a week
+
+Use Mobile Notarization when:
+- Signers have limited technology access
+- Documents require wet (ink) signatures
+- Underwriter or lender requires wet-signed documents
+- Geographic coverage in major metropolitan areas
+- Advance scheduling recommended (48-72 hours)
+
+RON SESSION REQUIREMENTS
+Technology Requirements:
+- HD webcam or device camera
+- Built-in or external microphone
+- Stable broadband connection (10+ Mbps recommended)
+- Latest version of Chrome browser with camera/microphone permissions
+- Government-issued photo identification
+
+Identity Verification for RON:
+- Multi-factor verification: ID examination plus knowledge-based authentication (KBA) questions
+- Biometric verification: Facial recognition and liveness detection
+- Document authentication: ID authenticity verification
+- Behavior analysis: Monitoring for suspicious activity patterns
+
+RON SESSION TIMELINE
+- Request Submission: Immediate
+- Scheduler Contact: 2-4 hours
+- Session Scheduling: Same day to 48 hours
+- Session Completion: 20-60 minutes
+- Document Delivery: Immediate (electronic)
+
+MOBILE NOTARIZATION TIMELINE
+- Request Submission: Immediate
+- Scheduler Contact: 4-8 hours
+- Session Scheduling: 24-72 hours
+- Session Completion: 30-60 minutes
+- Document Delivery: Within 48 hours
+
+SECURITY AND COMPLIANCE
+Bank-Level Security:
+- 256-bit SSL encryption for all data transmission
+- Multi-factor authentication for account protection
+- Secure document storage with encrypted backups
+- Complete audit trails for transaction transparency
+
+Legal Compliance:
+- State compliance with all applicable notarization laws
+- MISMO certified RON adherence for mortgage industry
+- eSign Compliant: adherence to UETA and ESIGN Act
+- Notary commission verification for all notaries
+- SOC 2 Type II certification
+- CCPA and GDPR compliance where applicable
+
+Record Keeping:
+- Session recordings maintained minimum 10 years (varies by state)
+- Notary journals per state requirements (typically 3-10 years)
+- Document copies maintained as legally required for audit trail
+- Blockchain technology for tamper-evident record storage
+- Digital signatures with cryptographic integrity verification
+
+NOTARY QUALITY STANDARDS
+- Commission verification: Confirm current notary commission status
+- Background checks: Criminal and professional background screening
+- Bonding and insurance: Verify errors and omissions coverage
+- Continuing education: Ongoing training requirements
+- Performance monitoring: Regular quality assessments
+- Specialization training: Real estate document expertise
+
+USER ROLES IN THE NOTARIZATION PROCESS
+Clients (Request Submitters): Real estate professionals, attorneys, lenders, title companies
+- Submit notarization requests, upload documents, schedule sessions, track status
+
+Signers: Borrowers, sellers, legal representatives, witnesses
+- Confirm scheduling, join sessions, complete identity verification, review and sign documents
+
+Notaries: State-commissioned, RON-certified professionals
+- Verify signer identity, witness document signing, apply official notary seal, ensure legal compliance
+
+DIGITAL CLOSING BENEFITS FOR TITLE COMPANIES
+1. Faster turnaround: Same-day closings possible with RON
+2. Reduced errors: Electronic document management reduces manual mistakes
+3. Better compliance: Automated audit trails and record keeping
+4. Cost savings: Reduced travel, printing, and shipping costs
+5. Client satisfaction: Convenient, flexible scheduling options
+6. Geographic reach: Serve clients anywhere, not limited by location
+7. Security: Bank-level encryption and identity verification

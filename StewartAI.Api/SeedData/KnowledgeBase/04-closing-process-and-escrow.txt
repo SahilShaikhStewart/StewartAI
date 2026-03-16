@@ -1,0 +1,120 @@
+STEWART TITLE — REAL ESTATE CLOSING PROCESS AND ESCROW
+========================================================
+
+THE CLOSING PROCESS OVERVIEW
+A real estate closing (also called settlement) is the final step in a property transaction where ownership is transferred from seller to buyer. Stewart Title facilitates closings through its direct operations and agent network.
+
+STEP-BY-STEP CLOSING PROCESS
+
+Step 1: Opening the Title Order
+- Buyer, seller, or their agents submit a title order to Stewart
+- Required information: property address, legal description, buyer/seller names, lender information, purchase price
+- Stewart assigns a file number and begins the title search
+
+Step 2: Title Search and Examination
+- Title examiner searches public records for the property
+- Typical search period: 20-60 years depending on state requirements
+- Records searched: deeds, mortgages, liens, judgments, taxes, plats, easements
+- Examiner prepares a title abstract or title report
+
+Step 3: Title Commitment Issuance
+- Stewart issues a title commitment (preliminary title report)
+- Schedule A: Identifies the property, proposed insured parties, and coverage amounts
+- Schedule B-I: Lists requirements to be satisfied before closing (payoffs, releases, documents needed)
+- Schedule B-II: Lists exceptions that will appear on the final policy
+- Commitment is sent to all parties for review
+
+Step 4: Curative Work
+- Any title defects identified must be resolved
+- Common curative items: obtaining lien releases, recording missing documents, correcting legal descriptions
+- Stewart's curative team works with parties to clear requirements
+- All Schedule B-I requirements must be satisfied before closing
+
+Step 5: Closing Preparation
+- Closing documents are prepared (deed, mortgage, settlement statement)
+- HUD-1 Settlement Statement or TRID Closing Disclosure is prepared
+- Wire instructions are sent to parties (with fraud prevention protocols)
+- Closing date, time, and location are confirmed
+
+Step 6: The Closing
+- All parties sign required documents
+- Buyer signs: mortgage/deed of trust, promissory note, closing disclosure
+- Seller signs: deed, seller's affidavit, transfer tax declarations
+- Notarization of signatures as required by state law
+- Funds are collected (cashier's check or wire transfer)
+
+Step 7: Recording
+- Signed documents are submitted to the county recorder's office
+- Deed is recorded to transfer ownership
+- Mortgage/deed of trust is recorded to secure the lender's interest
+- Recording fees are paid from closing funds
+
+Step 8: Disbursement
+- After recording confirmation, escrow funds are disbursed
+- Seller receives net proceeds
+- Existing liens are paid off
+- Real estate commissions are paid
+- Title insurance premiums, recording fees, and taxes are paid
+- Any remaining funds are returned to the appropriate party
+
+Step 9: Policy Issuance
+- After recording, Stewart issues the final title insurance policies
+- Owner's policy is sent to the buyer
+- Lender's policy is sent to the mortgage lender
+- Policies are effective as of the recording date and time
+
+ESCROW SERVICES
+
+What is Escrow?
+Escrow is a neutral third-party arrangement where funds and documents are held until all conditions of the transaction are met. Stewart Title serves as the escrow agent in many transactions.
+
+Escrow Agent Responsibilities:
+1. Hold earnest money deposits in a trust account
+2. Collect and disburse funds according to closing instructions
+3. Ensure all conditions are met before disbursement
+4. Prepare settlement statements
+5. Record documents with the county
+6. Issue title insurance policies
+7. Report transactions to the IRS (Form 1099-S)
+
+Escrow Account Requirements:
+- Funds must be held in FDIC-insured accounts
+- Separate trust accounts from operating accounts
+- Regular reconciliation of escrow accounts
+- Compliance with state escrow regulations
+- Interest-bearing accounts where required by state law
+
+TRID (TILA-RESPA Integrated Disclosure) COMPLIANCE
+- Loan Estimate must be provided within 3 business days of loan application
+- Closing Disclosure must be provided at least 3 business days before closing
+- Changes to certain terms require a new 3-day waiting period
+- Stewart's closing teams are trained on TRID compliance requirements
+
+WIRE FRAUD PREVENTION
+Stewart Title takes wire fraud prevention seriously:
+1. Never change wire instructions based on email alone
+2. Always verify wire instructions by phone using a known number
+3. Use Stewart's secure wire verification system
+4. Report suspicious communications immediately
+5. Educate buyers about wire fraud risks before closing
+6. Use encrypted email for sensitive financial information
+
+REMOTE/DIGITAL CLOSINGS
+Stewart supports modern closing methods:
+- Remote Online Notarization (RON): Available in states that permit it
+- Hybrid closings: Some documents signed remotely, some in person
+- eClosings: Fully electronic document signing and notarization
+- Mobile closings: Notary travels to the signer's location
+
+CLOSING COSTS BREAKDOWN
+Typical closing costs include:
+- Title insurance premiums (owner's and lender's policies)
+- Title search and examination fees
+- Escrow/closing fees
+- Recording fees
+- Transfer taxes (vary by state and locality)
+- Survey fees
+- Attorney fees (required in some states)
+- Lender fees (origination, appraisal, credit report)
+- Prepaid items (insurance, taxes, interest)
+- HOA transfer fees and estoppel letters

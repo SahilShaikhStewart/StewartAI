@@ -3,15 +3,16 @@ import {
     createRouter,
     createRootRoute,
     createRoute,
-    redirect,
     NotFoundRoute,
 } from '@tanstack/react-router';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
 import { MainLayout } from './components/layout/MainLayout';
+import HomePage from './app/home/HomePage';
 import DocumentAnalysisPage from './app/documents/DocumentAnalysisPage';
 import ChatPage from './app/chat/ChatPage';
 import RiskDashboardPage from './app/dashboard/RiskDashboardPage';
+import MetricsPage from './app/metrics/MetricsPage';
 
 // ─── Root Route (with layout) ────────────────────────────────────────────────
 
@@ -19,14 +20,12 @@ const rootRoute = createRootRoute({
     component: MainLayout,
 });
 
-// ─── Index Route (redirect to /documents) ────────────────────────────────────
+// ─── Index Route (Landing Page) ──────────────────────────────────────────────
 
 const indexRoute = createRoute({
     getParentRoute: () => rootRoute,
     path: '/',
-    beforeLoad: () => {
-        throw redirect({ to: '/documents' });
-    },
+    component: HomePage,
 });
 
 // ─── Feature Routes ──────────────────────────────────────────────────────────
@@ -47,6 +46,12 @@ const dashboardRoute = createRoute({
     getParentRoute: () => rootRoute,
     path: '/dashboard',
     component: RiskDashboardPage,
+});
+
+const metricsRoute = createRoute({
+    getParentRoute: () => rootRoute,
+    path: '/metrics',
+    component: MetricsPage,
 });
 
 // ─── 404 Route ───────────────────────────────────────────────────────────────
@@ -70,6 +75,7 @@ const routeTree = rootRoute.addChildren([
     documentsRoute,
     chatRoute,
     dashboardRoute,
+    metricsRoute,
 ]);
 
 const router = createRouter({ routeTree, notFoundRoute, scrollRestoration: true });

@@ -1,0 +1,97 @@
+STEWART TITLE — STATE-SPECIFIC TITLE INSURANCE REQUIREMENTS
+=============================================================
+
+Title insurance regulations vary significantly by state. This guide covers key differences for the most active real estate markets.
+
+TEXAS (TX)
+- Regulatory Body: Texas Department of Insurance (TDI)
+- Rate Type: Promulgated rates — all companies must charge the same premium
+- Attorney State: No — non-attorneys can conduct closings
+- Community Property State: Yes — both spouses must sign conveyances of homestead
+- Homestead Protection: Strong homestead protections under Texas Constitution
+- Mechanic's Lien: Must be filed by 15th day of 4th month after work completed
+- Transfer Tax: None
+- Key Issues: Mineral rights are commonly severed from surface rights; always check for mineral reservations
+- Stewart Guideline: Texas requires specific T-forms for title commitments and policies
+
+CALIFORNIA (CA)
+- Regulatory Body: California Department of Insurance
+- Rate Type: File and use — companies set their own rates
+- Attorney State: No — escrow companies handle closings
+- Community Property State: Yes — both spouses must consent to transfers
+- Preliminary Report: California uses "preliminary reports" instead of "commitments"
+- Transfer Tax: County transfer tax of $1.10 per $1,000; some cities have additional taxes
+- Mechanic's Lien: Must be filed within 90 days of completion for direct contractors
+- Key Issues: Proposition 13 property tax implications; earthquake fault zones; environmental contamination
+- Stewart Guideline: California requires specific CLTA/ALTA policy forms
+
+FLORIDA (FL)
+- Regulatory Body: Florida Office of Insurance Regulation
+- Rate Type: Promulgated rates
+- Attorney State: Varies by county — some require attorney closings
+- Community Property State: No — but has tenancy by the entireties
+- Homestead: Strong homestead protections — cannot be devised away from spouse
+- Transfer Tax: Documentary stamp tax of $0.70 per $100 (except Miami-Dade: $0.60)
+- Mechanic's Lien: Must be filed within 90 days of final furnishing
+- Key Issues: High fraud rate; condo association issues; hurricane damage disclosure
+- Stewart Guideline: Florida has the highest title insurance claim rate — enhanced due diligence required
+
+NEW YORK (NY)
+- Regulatory Body: New York Department of Financial Services
+- Rate Type: Promulgated rates
+- Attorney State: Yes — attorneys must conduct closings
+- Community Property State: No — but has dower/curtesy rights
+- Transfer Tax: State transfer tax of $2 per $500 for residential; NYC has additional taxes
+- Mansion Tax: 1% surcharge on residential properties over $1 million
+- Mortgage Recording Tax: Varies by county (NYC: 1.8% for loans under $500K, 1.925% for over)
+- Key Issues: Cooperative apartments (co-ops) are not real property — different insurance requirements
+- Stewart Guideline: New York requires specific rate manual compliance; co-op transactions need special handling
+
+ILLINOIS (IL)
+- Regulatory Body: Illinois Department of Insurance
+- Rate Type: File and use
+- Attorney State: Varies — Chicago area typically uses attorneys
+- Transfer Tax: State tax of $0.50 per $500; Cook County has additional taxes
+- Key Issues: Chicago has unique customs (seller typically pays for owner's policy)
+- Stewart Guideline: Illinois has specific requirements for trust deed states
+
+PENNSYLVANIA (PA)
+- Regulatory Body: Pennsylvania Insurance Department
+- Rate Type: Promulgated rates
+- Attorney State: No — title companies handle closings
+- Transfer Tax: 1% state tax plus 1% local tax (2% total in most areas; Philadelphia is 4.278%)
+- Key Issues: Coal rights and mineral rights in western PA
+- Stewart Guideline: Pennsylvania requires specific rate compliance and has unique reissue rate rules
+
+GEORGIA (GA)
+- Regulatory Body: Georgia Office of Insurance and Safety Fire Commissioner
+- Rate Type: File and use
+- Attorney State: Yes — attorneys must conduct closings
+- Transfer Tax: State transfer tax of $1 per $1,000
+- Key Issues: Security deeds (not mortgages); non-judicial foreclosure state
+- Stewart Guideline: Georgia uses security deeds instead of mortgages — different recording requirements
+
+OHIO (OH)
+- Regulatory Body: Ohio Department of Insurance
+- Rate Type: File and use
+- Attorney State: No
+- Transfer Tax: Conveyance fee of $1 per $1,000 (county) plus possible municipal fees
+- Key Issues: Dower rights must be released; survivorship deeds common
+- Stewart Guideline: Ohio has specific dower release requirements that must be verified
+
+GENERAL STATE CATEGORIES
+
+Attorney States (closing must involve an attorney):
+Connecticut, Delaware, Georgia, Massachusetts, New York, North Carolina, South Carolina, Vermont, Virginia, West Virginia
+
+Non-Attorney States (title companies can conduct closings):
+Arizona, California, Colorado, Florida (varies), Idaho, Minnesota, Montana, Nevada, New Mexico, Oregon, Texas, Utah, Washington
+
+Community Property States:
+Arizona, California, Idaho, Louisiana, Nevada, New Mexico, Texas, Washington, Wisconsin
+
+Judicial Foreclosure States (foreclosure requires court action):
+Connecticut, Delaware, Florida, Hawaii, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Montana, Nebraska, New Jersey, New Mexico, New York, North Carolina, North Dakota, Ohio, Oklahoma, Oregon, Pennsylvania, South Carolina, South Dakota, Vermont, Virginia, Wisconsin
+
+Non-Judicial Foreclosure States (foreclosure without court):
+Alabama, Alaska, Arizona, Arkansas, California, Colorado, Georgia, Idaho, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, Oregon, Rhode Island, Tennessee, Texas, Utah, Virginia, Washington, West Virginia, Wyoming

@@ -79,4 +79,16 @@ public class ChatController : ControllerBase
         var chunkCount = await _knowledgeBaseService.GetChunkCountAsync();
         return Ok(new { totalChunks = chunkCount });
     }
+
+    /// <summary>Seed the knowledge base from built-in training data files.</summary>
+    [HttpPost("knowledge-base/seed")]
+    public async Task<IActionResult> SeedKnowledgeBase()
+    {
+        _logger.LogInformation("Manual knowledge base seed triggered");
+
+        var seedPath = Path.Combine(AppContext.BaseDirectory, "SeedData", "KnowledgeBase");
+        var result = await _knowledgeBaseService.SeedKnowledgeBaseAsync(seedPath);
+
+        return Ok(result);
+    }
 }

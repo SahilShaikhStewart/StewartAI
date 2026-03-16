@@ -1,0 +1,130 @@
+REAL ESTATE CLOSING DOCUMENTS — COMPREHENSIVE GUIDE
+Stewart Title — Document Intelligence Reference
+=================================================
+
+PROMISSORY NOTE
+What it is: The borrower's promise to repay the loan.
+Key Elements:
+- Principal amount: Total amount being borrowed
+- Interest rate: Annual percentage rate (APR)
+- Payment schedule: Monthly payment amount and due date
+- Term length: Repayment period (e.g., 15 or 30 years)
+- Late payment fees: Penalties for missed or late payments
+- Prepayment terms: Whether early payoff is allowed without penalty
+- Default terms: What happens if payments are missed
+Risk Factors: Missing signature pages, blurred financial amounts, incomplete borrower information
+Stewart Guideline: All pages required, clear signature lines, all financial figures must be legible
+
+DEED OF TRUST / MORTGAGE
+What it is: Legal document securing the loan with the property as collateral.
+Key Elements:
+- Property legal description: Complete and accurate legal description
+- Lender information: Who holds the mortgage
+- All parties listed: Grantors, grantees, trustees
+- Borrower obligations: Responsibilities as homeowner
+- Default terms: Consequences of non-payment
+- Insurance requirements: Required property insurance coverage
+- Notarization blocks: Clearly marked for notary use
+- Recording information: Spaces for official county recording
+Risk Factors: Incomplete legal descriptions, missing party names, improper notarization blocks
+Stewart Guideline: Complete deed with all exhibits, property legal description attachments, state-specific requirements
+
+CLOSING DISCLOSURE (CD)
+What it is: Summary of all final loan terms and closing costs (replaced HUD-1 under TRID).
+Key Elements:
+- Final loan amount: Confirmed loan principal
+- Monthly payment: Principal, interest, taxes, insurance (PITI)
+- All closing costs: Every fee itemized
+- Cash to close: Exact amount needed at closing
+- Rate lock: Interest rate and expiration date
+- Comparison: Shows changes from original Loan Estimate
+Legal Requirements:
+- Must be provided 3 business days before closing (TRID requirement)
+- Material changes trigger new CD and new 3-day waiting period
+- Cannot be modified without restarting the waiting period
+- Borrower acknowledges receipt and understanding
+Stewart Guideline: Final version only (no drafts), all pages included (typically 3-5 pages), verify borrower information matches loan application
+
+WARRANTY DEED
+What it is: Legal document transferring property ownership with full title guarantees.
+Key Elements:
+- Grantor: Person/entity selling the property
+- Grantee: Person/entity buying the property
+- Property description: Legal description meeting local recording standards
+- Consideration: Purchase price or "valuable consideration"
+- Title warranties: Seller guarantees clear title
+- Notarization: Required for recording at county courthouse
+Comparison with Quitclaim Deed:
+- Warranty Deed: Full protection, seller guarantees clear title, title insurance usually accompanies, seller liable if title problems arise
+- Quitclaim Deed: No warranties, "as-is" transfer, buyer assumes all title risks, common in family transfers and divorces
+
+AFFIDAVITS AND SWORN STATEMENTS
+Common Types in Real Estate:
+- Occupancy Affidavit: Statement about who will live in the property
+- Name Affidavit: Confirmation of legal name (resolves name discrepancies)
+- Title Affidavit: Statement about property ownership history
+- Property Condition Disclosure: Known issues with the property
+Requirements: Sworn statement format, specific facts, jurat format requiring oath/affirmation, no blanks in sworn content
+
+POWER OF ATTORNEY (POA)
+Special Requirements for Real Estate:
+- Must be current and valid (not revoked or expired)
+- Must specifically cover real estate transactions
+- Principal must be competent to grant authority
+- May require additional witnesses beyond notarization
+- Some POAs must be recorded to be effective
+Signing Format: "John Smith by Mary Smith as Attorney-in-Fact"
+Stewart Guideline: Original POA should accompany signing, verify POA validity before proceeding
+
+DOCUMENTS BY TRANSACTION TYPE
+
+Purchase Transactions Required:
+- Promissory Note
+- Deed of Trust/Mortgage
+- Warranty Deed
+- Closing Disclosure
+- Property Transfer Affidavit
+- Title Insurance Policy
+Additional: Power of Attorney (if applicable), Corporate Resolution (business entities), Occupancy Affidavit, Property Disclosure Forms, HOA documents, Survey or Plat
+
+Refinance Transactions Required:
+- Promissory Note (new)
+- Deed of Trust/Mortgage (new)
+- Closing Disclosure
+- Right to Cancel (3-day rescission notice)
+- Occupancy Affidavit
+Additional: Rate Lock Agreement, Property Insurance documentation, Tax and Insurance Escrow agreements
+
+HELOC/Second Mortgage Required:
+- HELOC Agreement or Second Mortgage Note
+- Deed of Trust (subordinate lien)
+- Truth in Lending Disclosure
+- Right to Cancel (3-day notice)
+- Property Appraisal (if required)
+
+Cash Purchase Required:
+- Warranty Deed or Quitclaim Deed
+- Settlement Statement
+- Property Transfer Affidavit
+- Title Insurance Policy
+
+RIGHT TO CANCEL (RESCISSION PERIOD)
+Applies to: Refinances, HELOCs, home equity loans
+Duration: 3 business days after signing
+Rules: Business days only (excludes Saturdays, Sundays, holidays), must cancel by midnight on 3rd business day, can cancel for any reason
+Impact: Loan doesn't fund until 4th business day, plan accordingly, ensure rate lock covers cancellation period
+
+DOCUMENT QUALITY STANDARDS
+File Formats: PDF (preferred), TIFF, PNG, JPG/JPEG
+Resolution: Minimum 200 DPI, recommended 300 DPI
+File Size: Maximum 50MB per document, recommended 10MB or less
+Naming Convention: [DocumentType]_[PropertyAddress]_[Date].pdf
+Quality Checklist: All text readable, pages straight and properly oriented, no cut-off content, consistent lighting, no shadows or glare
+
+COMMON DOCUMENT ISSUES AND RESOLUTION
+- Missing pages: Verify page count matches expected total, contact document provider
+- Blurred text: Rescan at higher resolution (300 DPI), clean scanner glass
+- Inconsistent information: Ensure names match exactly across all documents
+- Wrong amounts: Stop signing, verify changes, request corrected documents
+- Missing signature lines: Contact document preparer for revision
+- Incompatible formats: Convert to PDF format before upload

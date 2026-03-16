@@ -107,6 +107,58 @@ public class KnowledgeBaseService : IKnowledgeBaseService
         return await _db.KnowledgeChunks.CountAsync();
     }
 
+    public async Task<KnowledgeSeedResult> SeedKnowledgeBaseAsync(string seedDataPath)
+    {
+        var result = new KnowledgeSeedResult();
+
+        if (!Directory.Exists(seedDataPath))
+        {
+            _logger.LogWarning("Seed data directory not found: {Path}", seedDataPath);
+            result.Errors.Add($"Seed data directory not found: {seedDataPath}");
+            return result;
+        }
+
+        var files = Directory.GetFiles(seedDataPath, "*.txt").OrderBy(f => f).ToArray();
+        _logger.LogInformation("Found {Count} seed files in {Path}", files.Length, seedDataPath);
+
+        foreach (var filePath in files)
+        {
+            var fileName = Path.GetFileName(filePath);
+
+            try
+            {
+                // Check if already ingested (skip if chunks exist for this file)
+                var existingCount = await _db.KnowledgeChunks.CountAsync(k => k.DocumentName == fileName);
+                if (existingCount > 0)
+                {
+                    _logger.LogInformation("Skipping {FileName} — already ingested ({Count} chunks)", fileName, existingCount);
+                    result.FilesSkipped++;
+                    result.SkippedFiles.Add(fileName);
+                    continue;
+                }
+
+                // Ingest the file
+                await using var stream = File.OpenRead(filePath);
+                await IngestDocumentAsync(stream, fileName);
+
+                result.FilesProcessed++;
+                result.ProcessedFiles.Add(fileName);
+                _logger.LogInformation("Seeded {FileName} successfully", fileName);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Failed to seed {FileName}", fileName);
+                result.Errors.Add($"{fileName}: {ex.Message}");
+            }
+        }
+
+        result.TotalChunks = await GetChunkCountAsync();
+        _logger.LogInformation("Knowledge base seeding complete: {Processed} processed, {Skipped} skipped, {Total} total chunks",
+            result.FilesProcessed, result.FilesSkipped, result.TotalChunks);
+
+        return result;
+    }
+
     private static string ExtractText(Stream stream, string fileName)
     {
         if (fileName.EndsWith(".txt", StringComparison.OrdinalIgnoreCase))

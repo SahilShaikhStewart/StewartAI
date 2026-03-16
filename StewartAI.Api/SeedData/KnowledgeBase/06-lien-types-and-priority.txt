@@ -1,0 +1,123 @@
+STEWART TITLE — LIEN TYPES, PRIORITY, AND RESOLUTION
+=======================================================
+
+WHAT IS A LIEN?
+A lien is a legal claim or encumbrance on a property that serves as security for a debt or obligation. Liens must be identified and addressed during the title examination process. Unresolved liens are the #1 cause of title insurance claims.
+
+LIEN PRIORITY RULES
+
+General Rule: "First in time, first in right"
+Liens are generally prioritized by the date and time they are recorded in the public records. The first lien recorded has the highest priority.
+
+Exceptions to the General Rule:
+1. Property tax liens: ALWAYS have first priority regardless of recording date
+2. Federal tax liens: Priority from date of filing (not recording)
+3. Mechanic's liens: May relate back to the date work commenced (varies by state)
+4. Purchase money mortgages: May have priority over prior judgment liens in some states
+5. HOA super-liens: Some states give HOA liens priority over first mortgages for limited amounts
+
+TYPES OF LIENS
+
+VOLUNTARY LIENS (Created by agreement)
+
+1. Mortgage Lien / Deed of Trust
+- Created when a borrower pledges property as security for a loan
+- Recorded in the county where the property is located
+- Released when the loan is paid in full (satisfaction/reconveyance)
+- Priority: Based on recording date
+- Stewart Guideline: Verify all prior mortgages are released or will be paid at closing
+
+2. Home Equity Line of Credit (HELOC)
+- Revolving credit line secured by the property
+- May have a maximum lien amount different from the current balance
+- Must be paid off and closed (not just paid down) for release
+- Stewart Guideline: Obtain a payoff letter AND a closure letter for HELOCs
+
+INVOLUNTARY LIENS (Imposed without owner's consent)
+
+3. Property Tax Lien
+- Imposed by local government for unpaid property taxes
+- ALWAYS first priority — superior to all other liens
+- Can result in tax sale if unpaid
+- Stewart Guideline: Always verify current tax status; require payment of delinquent taxes at closing
+
+4. Federal Tax Lien (IRS)
+- Filed by the IRS for unpaid federal taxes
+- Attaches to all property owned by the taxpayer
+- 10-year statute of limitations from date of assessment
+- 120-day right of redemption after sale
+- Priority: From date of filing with the county recorder
+- Stewart Guideline: Federal tax liens must be paid at closing or subordinated by the IRS
+
+5. State Tax Lien
+- Filed by state tax authority for unpaid state taxes
+- Rules vary by state
+- Stewart Guideline: Check state-specific requirements for release
+
+6. Mechanic's Lien (Construction Lien)
+- Filed by contractors, subcontractors, or material suppliers for unpaid work
+- May relate back to the date work commenced (giving it priority over later-recorded liens)
+- Filing deadlines vary by state:
+  - Texas: 15th day of 4th month after work completed
+  - California: 90 days after completion for direct contractors; 30 days for subcontractors
+  - Florida: 90 days after final furnishing of labor/materials
+  - New York: 8 months after completion for private improvements
+- Stewart Guideline: For new construction, require lien waivers from all contractors and subcontractors
+
+7. Judgment Lien
+- Created when a court enters a money judgment against a property owner
+- Attaches to all real property owned by the debtor in the county where recorded
+- Duration varies by state (typically 5-20 years, renewable)
+- Stewart Guideline: Search for judgments against all parties in the chain of title
+
+8. HOA/Condo Association Lien
+- Filed for unpaid homeowner association dues and assessments
+- Some states have "super-lien" provisions giving HOA liens priority over first mortgages
+- Super-lien states include: Colorado, Connecticut, Delaware, DC, Hawaii, Maryland, Massachusetts, Minnesota, Nevada, New Hampshire, New Jersey, Oregon, Pennsylvania, Rhode Island, Vermont, Virginia, Washington
+- Stewart Guideline: Always obtain an HOA estoppel letter showing current balance due
+
+9. Child Support Lien
+- Filed for unpaid child support obligations
+- May have special priority under state law
+- Stewart Guideline: Must be paid at closing or subordinated
+
+10. Municipal Lien (Code Enforcement)
+- Filed by local government for unpaid fines, code violations, or special assessments
+- May include demolition liens, weed abatement liens, or utility liens
+- Stewart Guideline: Obtain a municipal lien search in addition to the standard title search
+
+11. Lis Pendens (Notice of Pending Litigation)
+- Not technically a lien, but a recorded notice that litigation is pending affecting the property
+- Puts all subsequent purchasers on notice of the claim
+- Stewart Guideline: Do not insure over an active lis pendens without underwriter approval
+
+LIEN RESOLUTION PROCESS
+
+Step 1: Identify all liens during title search
+Step 2: Determine lien priority
+Step 3: Calculate payoff amounts (request payoff statements)
+Step 4: Determine which liens will be:
+  - Paid at closing (most common)
+  - Released by the lienholder
+  - Subordinated to the new mortgage
+  - Excepted from coverage on Schedule B
+Step 5: Obtain lien releases after payment
+Step 6: Record lien releases
+
+PAYOFF LETTER REQUIREMENTS
+A valid payoff letter must include:
+- Current balance due
+- Per diem interest amount
+- Good-through date
+- Wire instructions for payment
+- Contact information for the lienholder
+- Any fees (recording fees, release preparation fees)
+- Statement that a release will be provided upon payment
+
+Stewart Guideline: Payoff letters should be no more than 30 days old at closing. For HELOCs, require both a payoff letter and account closure confirmation.
+
+SUBORDINATION AGREEMENTS
+When a new first mortgage is being placed and an existing second mortgage will remain:
+- The second mortgage holder must agree to subordinate to the new first mortgage
+- A subordination agreement must be recorded
+- Stewart Guideline: Subordination agreements require underwriter approval for amounts exceeding $100,000

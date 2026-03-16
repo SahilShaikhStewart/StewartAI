@@ -8,6 +8,7 @@ import {
     Loader2,
     Database,
     Sparkles,
+    Zap,
 } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
@@ -36,6 +37,7 @@ export default function ChatPage() {
     const [conversationId, setConversationId] = useState<string | undefined>();
     const [kbStats, setKbStats] = useState<{ totalChunks: number } | null>(null);
     const [isIngesting, setIsIngesting] = useState(false);
+    const [isSeeding, setIsSeeding] = useState(false);
     const scrollRef = useRef<HTMLDivElement>(null);
     const fileInputRef = useRef<HTMLInputElement>(null);
 
@@ -132,6 +134,38 @@ export default function ChatPage() {
         setConversationId(undefined);
     };
 
+    const handleSeedKnowledgeBase = async () => {
+        setIsSeeding(true);
+        try {
+            const result = await chatApi.seedKnowledgeBase();
+            setKbStats({ totalChunks: result.totalChunks });
+
+            const parts = [];
+            if (result.filesProcessed > 0)
+                parts.push(`${result.filesProcessed} files ingested`);
+            if (result.filesSkipped > 0)
+                parts.push(`${result.filesSkipped} files already existed`);
+            if (result.errors.length > 0)
+                parts.push(`${result.errors.length} errors`);
+
+            const systemMessage: DisplayMessage = {
+                role: 'assistant',
+                content: `🧠 Knowledge base seeded! ${parts.join(', ')}. Total chunks: ${result.totalChunks}`,
+                timestamp: new Date().toISOString(),
+            };
+            setMessages((prev) => [...prev, systemMessage]);
+        } catch {
+            const errorMessage: DisplayMessage = {
+                role: 'assistant',
+                content: 'Failed to seed knowledge base. The backend may still be processing — check logs.',
+                timestamp: new Date().toISOString(),
+            };
+            setMessages((prev) => [...prev, errorMessage]);
+        } finally {
+            setIsSeeding(false);
+        }
+    };
+
     const suggestedQuestions = [
         'What is title insurance and why is it important?',
         'What are common title defects in residential transactions?',
@@ -172,19 +206,32 @@ export default function ChatPage() {
                                     : 'Loading...'}
                             </CardDescription>
                         </CardHeader>
-                        <CardContent>
+                        <CardContent className="space-y-2">
+                            <Button
+                                variant="default"
+                                className="w-full"
+                                onClick={handleSeedKnowledgeBase}
+                                disabled={isSeeding || isIngesting}
+                            >
+                                {isSeeding ? (
+                                    <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+                                ) : (
+                                    <Zap className="h-4 w-4 mr-2" />
+                                )}
+                                {isSeeding ? 'Seeding...' : 'Seed Training Data'}
+                            </Button>
                             <Button
                                 variant="outline"
                                 className="w-full"
                                 onClick={() => fileInputRef.current?.click()}
-                                disabled={isIngesting}
+                                disabled={isIngesting || isSeeding}
                             >
                                 {isIngesting ? (
                                     <Loader2 className="h-4 w-4 mr-2 animate-spin" />
                                 ) : (
                                     <Upload className="h-4 w-4 mr-2" />
                                 )}
-                                {isIngesting ? 'Ingesting...' : 'Ingest Document'}
+                                {isIngesting ? 'Ingesting...' : 'Upload Document'}
                             </Button>
                             <input
                                 ref={fileInputRef}
@@ -193,8 +240,8 @@ export default function ChatPage() {
                                 onChange={handleIngest}
                                 className="hidden"
                             />
-                            <p className="text-xs text-muted-foreground mt-2">
-                                Upload PDF or TXT files to expand the knowledge base
+                            <p className="text-xs text-muted-foreground mt-1">
+                                Seed loads 10 built-in training docs. Upload adds custom files.
                             </p>
                         </CardContent>
                     </Card>
@@ -267,7 +314,14 @@ export default function ChatPage() {
                                                     <p className="text-xs font-medium mb-1">
                                                         Sources:
                                                     </p>
-                                                    {msg.sources.map((src, j) => (
+                                                    {Object.values(
+                                                        msg.sources.reduce((acc, src) => {
+                                                            if (!acc[src.documentName] || acc[src.documentName].relevanceScore < src.relevanceScore) {
+                                                                acc[src.documentName] = src;
+                                                            }
+                                                            return acc;
+                                                        }, {} as Record<string, typeof msg.sources[0]>)
+                                                    ).map((src, j) => (
                                                         <div
                                                             key={j}
                                                             className="text-xs text-muted-foreground mt-1"

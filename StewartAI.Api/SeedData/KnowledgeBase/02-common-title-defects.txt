@@ -1,0 +1,142 @@
+STEWART TITLE — COMMON TITLE DEFECTS AND CURATIVE ACTIONS
+==========================================================
+
+A title defect is any issue that affects the marketability or insurability of a property's title. Title examiners must identify these defects and recommend curative actions before a title insurance policy can be issued.
+
+CATEGORY 1: LIEN-RELATED DEFECTS
+
+1. Unreleased Mortgage/Deed of Trust
+- Description: A prior mortgage appears in the records but no satisfaction or release has been recorded
+- Risk Level: HIGH
+- Curative Action: Obtain and record a satisfaction/release from the prior lender. If the lender no longer exists, contact the successor institution or file a quiet title action.
+- Stewart Guideline: Do not insure over an unreleased mortgage exceeding $5,000 without underwriter approval.
+
+2. Tax Lien (Federal/State)
+- Description: IRS or state tax lien filed against the property owner
+- Risk Level: HIGH
+- Curative Action: Pay the tax debt and obtain a lien release, or negotiate a subordination agreement. Federal tax liens have a 10-year statute of limitations.
+- Stewart Guideline: Federal tax liens must be paid at closing. State tax liens follow state-specific rules.
+
+3. Mechanic's Lien
+- Description: A contractor, subcontractor, or material supplier has filed a lien for unpaid work
+- Risk Level: MEDIUM to HIGH
+- Curative Action: Pay the claim and obtain a lien release, or bond around the lien. Check state-specific mechanic's lien statutes for filing deadlines.
+- Stewart Guideline: Verify the lien was filed within the statutory period. In Texas, the deadline is the 15th day of the 4th month after the work was completed.
+
+4. Judgment Lien
+- Description: A court judgment has been recorded against the property owner
+- Risk Level: MEDIUM to HIGH
+- Curative Action: Pay the judgment and obtain a satisfaction, or verify the judgment has expired under state law.
+- Stewart Guideline: Check for judgments against all parties in the chain of title for the applicable statutory period.
+
+5. HOA/Condo Association Lien
+- Description: Unpaid homeowner association dues resulting in a lien
+- Risk Level: MEDIUM
+- Curative Action: Pay outstanding dues and obtain a lien release or estoppel letter from the HOA.
+- Stewart Guideline: Always obtain an HOA estoppel letter before closing.
+
+CATEGORY 2: OWNERSHIP AND CONVEYANCE DEFECTS
+
+6. Break in Chain of Title
+- Description: A gap in the recorded ownership history where a conveyance is missing
+- Risk Level: HIGH
+- Curative Action: Locate and record the missing deed, or file a quiet title action.
+- Stewart Guideline: A break in the chain of title requires underwriter approval before insuring.
+
+7. Deed Executed by Incompetent Grantor
+- Description: A deed was signed by someone who lacked legal capacity (minor, mentally incapacitated)
+- Risk Level: HIGH
+- Curative Action: Obtain a new deed from a legally competent grantor or their court-appointed guardian.
+- Stewart Guideline: Verify grantor capacity for any deed where there are indications of incapacity.
+
+8. Forged Deed
+- Description: A deed bearing a forged signature
+- Risk Level: CRITICAL
+- Curative Action: A forged deed is void and conveys no title. A quiet title action is required.
+- Stewart Guideline: Report suspected forgery to the Stewart Special Investigations Unit immediately.
+
+9. Deed from Entity Without Authority
+- Description: A deed executed by a corporation, LLC, or trust without proper authorization
+- Risk Level: MEDIUM
+- Curative Action: Obtain corporate resolution, LLC operating agreement authorization, or trust certification.
+- Stewart Guideline: Require evidence of authority for all entity conveyances (corporate resolution, certificate of trust, etc.).
+
+10. Improper Marital/Spousal Signature
+- Description: A deed conveying homestead property without the required spouse's signature
+- Risk Level: HIGH (especially in community property states)
+- Curative Action: Obtain a corrective deed with both spouses' signatures, or a quitclaim deed from the non-signing spouse.
+- Stewart Guideline: In community property states (TX, CA, AZ, NV, WA, etc.), both spouses must sign conveyances of community property.
+
+CATEGORY 3: LEGAL DESCRIPTION AND SURVEY DEFECTS
+
+11. Incorrect Legal Description
+- Description: The legal description in the deed does not match the actual property
+- Risk Level: MEDIUM to HIGH
+- Curative Action: Record a corrective deed with the accurate legal description.
+- Stewart Guideline: Compare the legal description against the survey and tax records.
+
+12. Encroachment
+- Description: A structure on the property extends onto an adjacent property or easement
+- Risk Level: MEDIUM
+- Curative Action: Obtain an encroachment agreement, remove the encroachment, or obtain an ALTA 28 endorsement.
+- Stewart Guideline: Survey exceptions should be reviewed for encroachments before issuing an extended coverage policy.
+
+13. Boundary Dispute
+- Description: Disagreement between adjacent property owners about the property line
+- Risk Level: MEDIUM to HIGH
+- Curative Action: Obtain a new survey, negotiate a boundary line agreement, or file a quiet title action.
+- Stewart Guideline: Require a current survey for all transactions where boundary issues are suspected.
+
+CATEGORY 4: RECORDING AND DOCUMENTATION DEFECTS
+
+14. Missing Notary Acknowledgment
+- Description: A deed or mortgage lacks proper notarization
+- Risk Level: MEDIUM
+- Curative Action: Re-execute the document with proper notarization, or record a corrective affidavit.
+- Stewart Guideline: All recorded documents must have proper notary acknowledgments per state law.
+
+15. Defective Recording
+- Description: A document was improperly recorded (wrong county, missing pages, illegible)
+- Risk Level: MEDIUM
+- Curative Action: Re-record the document correctly.
+- Stewart Guideline: Verify recording information for all documents in the chain of title.
+
+16. Missing Power of Attorney
+- Description: A deed was executed under power of attorney, but the POA is not recorded
+- Risk Level: MEDIUM
+- Curative Action: Record the power of attorney, or obtain a new deed from the principal.
+- Stewart Guideline: The POA must be recorded in the same county as the property and must specifically authorize real estate transactions.
+
+CATEGORY 5: ESTATE AND PROBATE DEFECTS
+
+17. Undisclosed Heirs
+- Description: A deceased owner's estate was distributed without including all legal heirs
+- Risk Level: HIGH
+- Curative Action: Obtain quitclaim deeds from all heirs, or file a quiet title action.
+- Stewart Guideline: Review probate proceedings carefully for proper notice to all heirs.
+
+18. Improper Probate
+- Description: The probate process was not properly completed or the personal representative exceeded their authority
+- Risk Level: HIGH
+- Curative Action: Complete the probate process correctly, or obtain court approval for the conveyance.
+- Stewart Guideline: Require certified copies of probate documents and verify the personal representative's authority.
+
+CATEGORY 6: EASEMENT AND RESTRICTION DEFECTS
+
+19. Unrecorded Easement
+- Description: An easement exists (utility, access, drainage) but is not recorded
+- Risk Level: LOW to MEDIUM
+- Curative Action: Record the easement or obtain a release from the easement holder.
+- Stewart Guideline: Survey inspection may reveal unrecorded easements (visible utility lines, paths, etc.).
+
+20. Restrictive Covenant Violation
+- Description: The property use violates recorded deed restrictions or covenants
+- Risk Level: LOW to MEDIUM
+- Curative Action: Obtain a waiver from the enforcing party, or modify the use to comply.
+- Stewart Guideline: Review CC&Rs for any restrictions that may affect the intended use of the property.
+
+RISK SCORING GUIDELINES
+- CRITICAL (90-100): Forged documents, void deeds — title cannot be insured
+- HIGH (70-89): Unreleased liens, breaks in chain, missing heir claims — require resolution before insuring
+- MEDIUM (40-69): Recording defects, minor encroachments, missing signatures — can often be cured
+- LOW (0-39): Minor easement issues, expired restrictions — typically insurable with exceptions

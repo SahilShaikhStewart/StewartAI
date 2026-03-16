@@ -16,18 +16,26 @@ public class DocumentAnalysisController : ControllerBase
         _logger = logger;
     }
 
-    /// <summary>Upload and analyze a title document (PDF).</summary>
+    /// <summary>
+    /// Upload and analyze a title document.
+    /// Supports: PDF, TXT, and image files (JPG, PNG, WEBP, TIFF, GIF).
+    /// Images and scanned PDFs are processed via Gemini Vision AI (multimodal).
+    /// </summary>
     [HttpPost("analyze")]
-    [RequestSizeLimit(10 * 1024 * 1024)] // 10MB max
+    [RequestSizeLimit(15 * 1024 * 1024)] // 15MB max (images can be larger than text docs)
     public async Task<IActionResult> AnalyzeDocument(IFormFile file)
     {
         if (file is null || file.Length == 0)
             return BadRequest(new { error = "No file uploaded" });
 
-        if (!file.FileName.EndsWith(".pdf", StringComparison.OrdinalIgnoreCase))
-            return BadRequest(new { error = "Only PDF files are supported" });
+        var allowedExtensions = new[] { ".pdf", ".txt", ".jpg", ".jpeg", ".png", ".webp", ".tiff", ".tif", ".gif" };
+        if (!allowedExtensions.Any(ext => file.FileName.EndsWith(ext, StringComparison.OrdinalIgnoreCase)))
+            return BadRequest(new { error = "Unsupported file type. Supported: PDF, TXT, JPG, PNG, WEBP, TIFF, GIF" });
 
-        _logger.LogInformation("Analyzing document: {FileName} ({Size} bytes)", file.FileName, file.Length);
+        var isImage = DocumentAnalysisService.IsImageFile(file.FileName);
+        _logger.LogInformation(
+            "Analyzing document: {FileName} ({Size} bytes, image={IsImage})",
+            file.FileName, file.Length, isImage);
 
         using var stream = file.OpenReadStream();
         var result = await _documentService.AnalyzeDocumentAsync(stream, file.FileName);
@@ -52,5 +60,46 @@ public class DocumentAnalysisController : ControllerBase
     {
         var results = await _documentService.GetAllAnalysesAsync();
         return Ok(results);
+    }
+
+    /// <summary>List available demo documents for quick testing.</summary>
+    [HttpGet("demo")]
+    public IActionResult GetDemoDocuments()
+    {
+        var demoPath = Path.Combine(AppContext.BaseDirectory, "SeedData", "DemoDocuments");
+
+        if (!Directory.Exists(demoPath))
+            return Ok(Array.Empty<object>());
+
+        var files = Directory.GetFiles(demoPath, "*.txt")
+            .Select(f => new
+            {
+                fileName = Path.GetFileName(f),
+                displayName = Path.GetFileNameWithoutExtension(f)
+                    .Replace("sample-", "")
+                    .Replace("-", " ")
+                    .ToUpperInvariant(),
+                sizeBytes = new FileInfo(f).Length
+            })
+            .ToArray();
+
+        return Ok(files);
+    }
+
+    /// <summary>Analyze a built-in demo document by filename.</summary>
+    [HttpPost("demo/analyze/{fileName}")]
+    public async Task<IActionResult> AnalyzeDemoDocument(string fileName)
+    {
+        var demoPath = Path.Combine(AppContext.BaseDirectory, "SeedData", "DemoDocuments", fileName);
+
+        if (!System.IO.File.Exists(demoPath))
+            return NotFound(new { error = $"Demo document '{fileName}' not found" });
+
+        _logger.LogInformation("Analyzing demo document: {FileName}", fileName);
+
+        await using var stream = System.IO.File.OpenRead(demoPath);
+        var result = await _documentService.AnalyzeDocumentAsync(stream, fileName);
+
+        return Ok(result);
     }
 }

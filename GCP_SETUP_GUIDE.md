@@ -136,8 +136,8 @@ curl -X POST http://localhost:5264/api/chat ^
 
 | Feature | Free Limit | Our Usage |
 |---------|-----------|-----------|
-| Gemini 1.5 Flash | 15 requests/minute, 1M tokens/day | More than enough |
-| Text Embeddings | 1500 requests/minute | More than enough |
+| Gemini 2.5 Flash | 15 requests/minute, 1M tokens/day | More than enough |
+| Gemini Embedding (gemini-embedding-001) | 1500 requests/minute | More than enough |
 | Cost | $0 for free tier | $0 during development |
 
 You only pay if you exceed free tier limits, which won't happen during development.
@@ -156,11 +156,14 @@ You only pay if you exceed free tier limits, which won't happen during developme
 
 ---
 
-## Later: GCP Deployment (Week 4)
+## GCP Cloud Run Deployment
 
-When ready to deploy for the demo, you'll need:
-1. **GCP Project** with billing enabled (use the $100 credits)
-2. **Cloud Run** — deploy the Docker container
-3. **Cloud SQL PostgreSQL** (optional — can keep SQLite for demo)
+When ready to deploy for the demo, see **[DEPLOY.md](./DEPLOY.md)** for the full step-by-step guide.
 
-But that's Week 4 stuff. For now, just the API key is all you need.
+Quick summary:
+1. **GCP Project** with billing enabled
+2. **Cloud Build** to build the Docker image
+3. **Cloud Run** to deploy — single container serves both API + React SPA
+4. **SQLite** works fine for the demo (auto-seeds on startup)
+
+For now, just the API key above is all you need for local development.
