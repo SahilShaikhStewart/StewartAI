@@ -261,7 +261,7 @@ export default function RiskDashboardPage() {
                             </CardHeader>
                             <CardContent>
                                 <div className="text-2xl font-bold">
-                                    {(summary.claimRate * 100).toFixed(1)}%
+                                    {summary.claimRate.toFixed(1)}%
                                 </div>
                                 <p className="text-xs text-muted-foreground">
                                     {summary.claimCount} claims out of {summary.totalRecords}
@@ -408,7 +408,7 @@ export default function RiskDashboardPage() {
                                                             {state.claimCount}
                                                         </td>
                                                         <td className="text-right py-2">
-                                                            {(state.claimRate * 100).toFixed(1)}%
+                                                            {state.claimRate.toFixed(1)}%
                                                         </td>
                                                     </tr>
                                                 ))}
