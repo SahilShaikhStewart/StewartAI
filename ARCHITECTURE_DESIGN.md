@@ -47,7 +47,7 @@ graph TB
     subgraph GCP["☁️ Google Cloud Platform"]
         GR[Cloud Run\nAuto-scaling Container]
         GAI[Gemini 2.5 Flash\nMultimodal LLM]
-        GEM[gemini-embedding-001\nVector Embeddings\n(768-dim)]
+        GEM[gemini-embedding-001\nVector Embeddings\n768 dimensions]
         GCB[Cloud Build\nCI/CD Pipeline]
         GAR[Artifact Registry\nDocker Images]
     end
@@ -105,8 +105,8 @@ flowchart TD
     A[📁 User Uploads Document] --> B{File Type?}
 
     B -->|PDF| C[Extract Text\nPdfPig Library]
-    B -->|TXT / DOC| D[Read Text Stream]
-    B -->|JPG / PNG\nScanned / Handwritten| E[🔍 Gemini Vision API\nOCR + Image Understanding]
+    B -->|TXT or DOC| D[Read Text Stream]
+    B -->|JPG or PNG\nScanned or Handwritten| E[Gemini Vision API\nOCR + Image Understanding]
 
     C --> F[Extracted Text]
     D --> F
@@ -118,10 +118,10 @@ flowchart TD
     H --> I[Parse AI Response]
     I --> J[Structured Output]
 
-    J --> K[📋 Extracted Entities\nGrantor, Grantee, Amounts]
-    J --> L[⚠️ Title Defects\nLiens, Encumbrances, Disputes]
-    J --> M[🎯 Risk Score\n0-100 + Low/Medium/High]
-    J --> N[💡 Recommendations\nActionable next steps]
+    J --> K[Extracted Entities\nGrantor, Grantee, Amounts]
+    J --> L[Title Defects\nLiens, Encumbrances, Disputes]
+    J --> M[Risk Score\n0-100 plus Low/Medium/High]
+    J --> N[Recommendations\nActionable next steps]
 
     K & L & M & N --> O[Save to Database\nAudit Trail]
     O --> P[Display Results in UI]
@@ -136,8 +136,8 @@ flowchart TD
 flowchart LR
     subgraph Input["📥 Input Parameters"]
         I1[State / County]
-        I2[Property Type\nResidential / Commercial]
-        I3[Transaction Type\nPurchase / Refinance / Foreclosure]
+        I2[Property Type\nResidential or Commercial]
+        I3[Transaction Type\nPurchase or Refinance or Foreclosure]
         I4[Purchase Price]
         I5[Loan Amount]
         I6[Additional Context]
@@ -145,14 +145,14 @@ flowchart LR
 
     subgraph AI["🤖 Gemini AI Analysis"]
         P1[Build Risk Prompt\nTitle Insurance Expert Role]
-        P2[Gemini 2.5 Flash\ntemp=0.3 for consistency]
+        P2[Gemini 2.5 Flash\ntemp 0.3 for consistency]
         P3[JSON Response Parsing]
     end
 
     subgraph Output["📤 Risk Output"]
-        O1[Overall Risk\nLow / Medium / High]
+        O1[Overall Risk\nLow or Medium or High]
         O2[Risk Score\n0-100 numeric]
-        O3[Risk Factors\nGeographic / Transaction / Market / Legal]
+        O3[Risk Factors\nGeographic, Transaction, Market, Legal]
         O4[Recommendations\nActionable steps]
         O5[Summary\n2-3 sentence analysis]
     end
@@ -197,19 +197,19 @@ graph TB
         end
 
         subgraph AI_APIs["🤖 Google Generative Language API"]
-            GEM25[gemini-2.5-flash\nMultimodal LLM\nText + Vision + JSON mode]
+            GEM25[gemini-2.5-flash\nMultimodal LLM\nText, Vision, JSON mode]
             EMB[gemini-embedding-001\nVector Embeddings\n768 dimensions]
         end
 
         subgraph Security["🔒 Security"]
             IAM[IAM Service Account\nCloud Run identity]
-            APIKEY[GCP API Key\nRestricted to:\nGenerative Language API\nStored as Cloud Run env var]
+            APIKEY[GCP API Key\nRestricted to Generative Language API\nStored as Cloud Run env var]
         end
     end
 
     DEV -->|git push| GH
     GH -->|trigger on main| CB
-    CB -->|3-stage docker build\nnode:22 + dotnet:9 + aspnet:9| AR
+    CB -->|3-stage docker build\nnode22 + dotnet9 + aspnet9| AR
     AR -->|deploy new revision| CR
     USER -->|HTTPS :443| CR
     CR -->|port 8080| Container
@@ -376,7 +376,7 @@ flowchart TD
     end
 
     subgraph Data["🗄️ Data"]
-        DB[(SQLite\nEphemeral - No PII stored)]
+        DB[(SQLite\nEphemeral, No PII stored)]
         NODOC[Documents NOT stored\nAnalyzed in-memory only]
     end
 
@@ -410,14 +410,14 @@ flowchart LR
 
     subgraph GCP_Build["🔨 GCP Cloud Build"]
         TRIGGER[Build Trigger\non push to main]
-        DOCKER[Docker Build\nMulti-stage\nStage 1: npm build React\nStage 2: dotnet publish\nStage 3: runtime image]
+        DOCKER[Docker Build Multi-stage\nStage 1: npm build React\nStage 2: dotnet publish\nStage 3: runtime image]
         PUSH[Push to\nArtifact Registry]
     end
 
     subgraph GCP_Run["🚀 GCP Cloud Run"]
         DEPLOY[Deploy new revision]
         TRAFFIC[Traffic split\n100% to new revision]
-        SCALE[Auto-scale\n0 to 10 instances\nbased on requests]
+        SCALE[Auto-scale\n0 to 10 instances\nbased on load]
     end
 
     CODE --> LOCAL
