@@ -1,0 +1,111 @@
+STEWART TITLE GUARANTY COMPANY
+SPECIAL POLICY BULLETIN NO. 2026-03
+Effective Date: March 15, 2026
+
+TO: All Underwriters and Title Officers
+FROM: Chief Underwriting Counsel
+RE: New Requirements for Solar Panel Installations on Insured Properties
+
+BACKGROUND:
+Due to the increasing prevalence of solar panel installations and associated financing arrangements, Stewart Title is implementing new underwriting guidelines effective immediately.
+
+SOLAR PANEL OWNERSHIP MODELS:
+
+1. OWNED OUTRIGHT BY PROPERTY OWNER
+   - No special requirements
+   - Solar panels are considered fixtures and part of the real property
+   - Standard title insurance coverage applies
+
+2. SOLAR LEASE AGREEMENTS
+   - Requires UCC-1 Financing Statement search
+   - Lease must be reviewed and approved by underwriting counsel
+   - Exception required in Schedule B for the solar lease
+   - Minimum lease term disclosure: Must be disclosed if lease extends beyond 20 years
+   - Assignment provisions must allow transfer with property sale
+
+3. POWER PURCHASE AGREEMENTS (PPA)
+   - Similar requirements to solar leases
+   - PPA must be assignable to subsequent property owners
+   - Utility company must acknowledge the arrangement
+   - Exception required for PPA in Schedule B
+
+REQUIRED DOCUMENTATION:
+
+For Solar Leases and PPAs:
+1. Copy of executed solar lease or PPA agreement
+2. UCC-1 Financing Statement (if filed)
+3. Subordination agreement from solar company (if mortgage is involved)
+4. Proof of insurance naming property owner as additional insured
+5. Maintenance agreement details
+6. Removal and restoration bond (minimum $10,000)
+
+UNDERWRITING CONSIDERATIONS:
+
+HIGH RISK FACTORS:
+- Solar lease term exceeds 25 years
+- No subordination agreement from solar company
+- Unclear removal/restoration obligations
+- Solar company has filed UCC-1 without property owner consent
+- Lease prohibits or restricts property sale
+
+MEDIUM RISK FACTORS:
+- Solar lease term 15-25 years
+- Conditional subordination agreement
+- Solar company requires buyer qualification for lease assumption
+- Removal costs exceed $5,000
+
+LOW RISK FACTORS:
+- Solar lease term under 15 years
+- Full subordination agreement in place
+- Automatic lease transfer with property sale
+- Property owner owns solar panels outright
+
+TITLE COMMITMENT REQUIREMENTS:
+
+Schedule B Exceptions must include:
+"Solar panel installation and associated [lease/PPA] agreement dated [DATE] between [PROPERTY OWNER] and [SOLAR COMPANY], recorded as Instrument No. [NUMBER] in the Official Records of [COUNTY], affecting the property."
+
+PREMIUM SURCHARGE:
+- Solar lease or PPA with term over 20 years: Add $150 to base premium
+- Solar lease or PPA with term under 20 years: Add $75 to base premium
+- Owned solar panels: No surcharge
+
+APPROVAL REQUIREMENTS:
+
+REQUIRES REGIONAL COUNSEL APPROVAL:
+- Any solar lease or PPA with term exceeding 25 years
+- Solar company refuses to provide subordination agreement
+- UCC-1 filing discovered without corresponding lease documentation
+- Solar lease contains unusual or onerous terms
+
+AUTOMATIC APPROVAL (with proper documentation):
+- Solar panels owned outright by property owner
+- Solar lease under 15 years with full subordination
+- Standard PPA with automatic transfer provisions
+
+SPECIAL SITUATIONS:
+
+FORECLOSURE PROPERTIES:
+- Verify solar lease/PPA status with solar company
+- Determine if lease survived foreclosure
+- Obtain estoppel certificate from solar company
+- Consider title exception for potential solar company claims
+
+COMMERCIAL PROPERTIES:
+- Require environmental assessment if solar installation exceeds 50kW
+- Verify zoning compliance for commercial solar installations
+- Check for utility company interconnection agreements
+- Review roof warranty implications
+
+QUESTIONS AND CLARIFICATIONS:
+Contact the Underwriting Department at underwriting@stewart.com or call 1-800-STEWART ext. 4567.
+
+This bulletin supersedes all previous guidance on solar panel installations.
+
+APPROVED:
+Sarah Mitchell, Chief Underwriting Counsel
+Stewart Title Guaranty Company
+March 15, 2026
+
+DISTRIBUTION: All Branch Offices, All Underwriters, All Title Officers
+RETENTION: Permanent - Add to Underwriting Manual
